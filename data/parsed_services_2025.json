@@ -1,0 +1,92 @@
+[
+  {
+    "category": "Core Services",
+    "service": "Basic Troubleshooting (On-site, 30 min)",
+    "price": 40.0
+  },
+  {
+    "category": "Core Services",
+    "service": "Full PC Setup (OS, drivers, updates)",
+    "price": 75.0
+  },
+  {
+    "category": "Core Services",
+    "service": "Data Transfer (up to 250GB)",
+    "price": 80.0
+  },
+  {
+    "category": "Core Services",
+    "service": "Microsoft Office Installation & Setup",
+    "price": 35.0
+  },
+  {
+    "category": "Core Services",
+    "service": "Printer Setup (Driver & Test Print)",
+    "price": 30.0
+  },
+  {
+    "category": "Core Services",
+    "service": "In-Home Service Fee (Base Visit)",
+    "price": 50.0
+  },
+  {
+    "category": "Additional Services",
+    "service": "Virus & Malware Removal",
+    "price": 100.0
+  },
+  {
+    "category": "Additional Services",
+    "service": "Network Troubleshooting (Router/Modem)",
+    "price": 75.0
+  },
+  {
+    "category": "Additional Services",
+    "service": "Wi-Fi Optimization & Range Extension",
+    "price": 100.0
+  },
+  {
+    "category": "Additional Services",
+    "service": "Hardware Installation (RAM, SSD, etc.)",
+    "price": 60.0
+  },
+  {
+    "category": "Additional Services",
+    "service": "Custom PC Build Consultation",
+    "price": 100.0
+  },
+  {
+    "category": "Service Packages",
+    "service": "Basic Tune-Up",
+    "price": 120.0
+  },
+  {
+    "category": "Service Packages",
+    "service": "Home Office Setup",
+    "price": 180.0
+  },
+  {
+    "category": "Service Packages",
+    "service": "Ultimate Protection",
+    "price": 250.0
+  },
+  {
+    "category": "Protection Plans",
+    "service": "Basic Plan - 1 Year",
+    "price": 150.0
+  },
+  {
+    "category": "Protection Plans",
+    "service": "Standard Plan - 2 Years",
+    "price": 275.0
+  },
+  {
+    "category": "Protection Plans",
+    "service": "Premium Plan - 3 Years",
+    "price": 400.0
+  },
+  {
+    "category": "Travel Fee",
+    "service": "Travel Fee (Over 20 Miles)",
+    "price": 20.0
+  }
+]

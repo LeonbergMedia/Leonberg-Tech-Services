@@ -1,0 +1,30 @@
+Leonberg-Tech-Services/
+├── main_hub.py                      # 🔧 Central dashboard (entry point)
+├── README.md                        # 📘 Project overview & instructions
+├── requirements.txt                 # 📦 Python package dependencies
+├── .system/
+│   └── invoice_counter.txt          # 📊 Tracks invoice number
+│
+├── data/                            # 📂 All saved/generated data
+│   ├── client_database/             # 🧾 Paid client profiles (JSON)
+│   ├── client_intake/               # 📝 Intake-only files (JSON)
+│   ├── client_orders/               # 🧾 All invoice JSON files
+│   ├── parsed_services_2025.json    # 📄 Loaded pricing/services sheet
+│   └── print_ready_invoices/        # 🖨️ Final branded PDFs
+│
+├── forms/                           # 📋 Interactive data collection forms
+│   └── client_intake_form.py        # Intake CLI script
+│
+├── invoice_generator/               # 🧮 Invoice creation & processing tools
+│   ├── client_invoice_generator.py  # Service/product selector & saver
+│   ├── invoice_pdf_generator.py     # Generates branded invoice PDFs
+│   └── invoice_editor.py            # Tool to edit invoices post-creation
+│
+├── client_tools/                    # 🧰 Client utility scripts
+│   └── client_lookup.py             # New: lookup profiles & past orders
+│
+├── branding/                        # 🎨 Logos, color themes, templates
+│   └── logo.png                     # Used in PDF reports
+│
+└── logs/                            # 🪵 Future expansion: error or action logs
+    └── debug.log                    # Optional: write runtime actions/errors here
