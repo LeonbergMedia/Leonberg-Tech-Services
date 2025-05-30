@@ -1,0 +1,12 @@
+work flow
+
+1 create a new client intake if the customer is a new client
+
+1.1 when finish geting client information ask if we would like to continue onto creating thier order if so procede to part 2 create new order
+
+when activating client order from the previos section the program should remember the client that was just created to bypass the 
+1. New Customer – New Order
+2. Past Customer – New Order
+
+and procede to the next step of creating the order of what needs to be added to the order
+

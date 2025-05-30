@@ -1,13 +1,18 @@
-from colorama import init, Fore, Style
-init(autoreset=True)
-from datetime import datetime  # Make sure this import is at the to
+# === Standard Library ===
+import os, re, sys, json
+from datetime import datetime
 from collections import defaultdict
-import os
-import json
-import re
-import sys
+
+# === Third-Party ===
+from colorama import init, Fore, Style
+
+init(autoreset=True)
 
 
+
+# === Local Modules ===
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from client_tools.service_loader import ServiceLoade, ServiceLoader
 
 ######################## GET CLIENTS FROM INTAKE FOLDER ########################
 
@@ -26,10 +31,11 @@ def list_intake_clients(intake_folder):
     return files
 
 ######################## GET LIST OF SERVICES ########################
+loader = ServiceLoader()
 
-def load_services(path):
-    with open(path, "r") as f:
-        return json.load(f)
+# def load_services(path):
+    # with open(path, "r") as f:
+        # return json.load(f)
     
 ######################## FORMAT SETTINGS FOR SERVICE DISPLAY ########################
 
@@ -233,7 +239,7 @@ def main():
         print(f"\n✅ Loaded intake file for {client_data['first_name']} {client_data['last_name']}.")
 
         # Load services and begin service selection
-        services = load_services(service_file)
+        services = loader.get_all_services()
         display_services(services)
         selected_services = select_services(services)
         products = add_products()

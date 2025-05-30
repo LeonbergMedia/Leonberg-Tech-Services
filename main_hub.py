@@ -2,6 +2,12 @@ import os
 import subprocess
 from colorama import init, Fore, Style
 
+# Run self-diagnostic at startup
+try:
+    subprocess.run(["python3", ".system/self_diagnostic.py"], check=True)
+except Exception as e:
+    print(f"[!] Self-diagnostic failed to run: {e}")
+
 # Initialize colorama
 init(autoreset=True)
 

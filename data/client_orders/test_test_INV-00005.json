@@ -1,0 +1,47 @@
+{
+    "client": {
+        "first_name": "test",
+        "last_name": "test",
+        "mobile_phone": "test",
+        "home_phone": "",
+        "email": "",
+        "contact_preference": "call",
+        "address": "test\n\n,  ",
+        "intake_date": "May 16, 2025"
+    },
+    "invoice_number": "INV-00005",
+    "invoice_date": "May 22, 2025",
+    "services": [
+        {
+            "category": "Core Services",
+            "service": "Full PC Setup (OS, drivers, updates)",
+            "price": 75.0
+        },
+        {
+            "category": "Core Services",
+            "service": "Data Transfer (up to 250GB)",
+            "price": 80.0
+        },
+        {
+            "category": "Core Services",
+            "service": "Microsoft Office Installation & Setup",
+            "price": 35.0
+        },
+        {
+            "category": "Core Services",
+            "service": "Full PC Setup (OS, drivers, updates)",
+            "price": 75.0
+        }
+    ],
+    "products": [
+        {
+            "name": "tv",
+            "price": 400.0
+        }
+    ],
+    "service_subtotal": 265.0,
+    "product_subtotal": 400.0,
+    "tax": 24.0,
+    "total": 689.0,
+    "status": "Unpaid"
+}
